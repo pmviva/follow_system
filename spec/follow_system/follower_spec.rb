@@ -87,7 +87,7 @@ end
 ###
 # Describes DummyFollower
 ###
-describe DummyFollower do
+describe DummyFollower, type: :model do
   ###
   # It behaves like FollowSystem::Follower
   ###

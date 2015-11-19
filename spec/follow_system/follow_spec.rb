@@ -3,7 +3,7 @@ require 'spec_helper'
 ###
 # Describes FollowSystem::Follow
 ###
-describe FollowSystem::Follow do
+describe FollowSystem::Follow, type: :model do
   ###
   # Let followee be DummyFollowee.create
   ###

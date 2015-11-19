@@ -60,7 +60,7 @@ end
 ###
 # Describes DummyFollowee
 ###
-describe DummyFollowee do
+describe DummyFollowee, type: :model do
   ###
   # It behaves like FollowSystem::Followee
   ###
