@@ -150,9 +150,9 @@ describe FollowSystem::Follow, type: :model do
     # Should scope follows by followee type
     ####
     it "should scope follows by followee type" do
-      scope = FollowSystem::Follow.where(followee_type: DummyFollowee)
+      scope = FollowSystem::Follow.where(followee_type: "DummyFollowee")
 
-      expect(FollowSystem::Follow.scope_by_followee_type(DummyFollowee)).to eq(scope)
+      expect(FollowSystem::Follow.scope_by_followee_type("DummyFollowee")).to eq(scope)
     end
 
     ###
@@ -168,9 +168,9 @@ describe FollowSystem::Follow, type: :model do
     # Should scope follows by follower type
     ####
     it "should scope follows by follower type" do
-      scope = FollowSystem::Follow.where(follower_type: DummyFollower)
+      scope = FollowSystem::Follow.where(follower_type: "DummyFollower")
 
-      expect(FollowSystem::Follow.scope_by_follower_type(DummyFollower)).to eq(scope)
+      expect(FollowSystem::Follow.scope_by_follower_type("DummyFollower")).to eq(scope)
     end
   end
 end
