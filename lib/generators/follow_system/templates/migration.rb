@@ -3,7 +3,7 @@
 #
 # This class defines the create follows migration in follow system
 ###
-class CreateFollows < ActiveRecord::Migration
+class CreateFollows < ActiveRecord::Migration[5.0]
   ###
   # Changes the database
   ###

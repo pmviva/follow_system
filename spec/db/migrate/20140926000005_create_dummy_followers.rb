@@ -3,7 +3,7 @@
 #
 # This class defines the create dummy followers migration in follow system
 ###
-class CreateDummyFollowers < ActiveRecord::Migration
+class CreateDummyFollowers < ActiveRecord::Migration[5.0]
   ###
   # Changes the database
   ###
