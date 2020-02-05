@@ -42,4 +42,3 @@ module FollowSystem
 end
 
 ActiveRecord::Base.extend FollowSystem
-

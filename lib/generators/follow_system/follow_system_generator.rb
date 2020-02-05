@@ -43,4 +43,3 @@ class FollowSystemGenerator < Rails::Generators::Base
     migration_template 'migration.rb', 'db/migrate/create_follows.rb'
   end
 end
-

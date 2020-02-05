@@ -174,4 +174,3 @@ describe FollowSystem::Follow, type: :model do
     end
   end
 end
-

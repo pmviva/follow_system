@@ -119,4 +119,3 @@ class DummyFollower < ActiveRecord::Base
   # Acts as follower
   act_as_follower
 end
-

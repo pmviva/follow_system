@@ -44,4 +44,3 @@ class CreateFollows < ActiveRecord::Migration[5.0]
     add_index :follows, [:followee_id, :followee_type, :follower_id, :follower_type], name: "follows_followee_follower_idx", unique: true
   end
 end
-

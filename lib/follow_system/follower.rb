@@ -85,4 +85,3 @@ module FollowSystem
     end
   end
 end
-

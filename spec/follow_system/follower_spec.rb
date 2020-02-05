@@ -79,7 +79,7 @@ shared_examples_for FollowSystem::Follower do
     it "should scope followees filtered by followee type" do
       scope = FollowSystem::Follow.scope_by_follower(follower).scope_by_followee_type(DummyFollowee)
 
-      expect(follower.followees_by(DummyFollowee)).to eq(scope)      
+      expect(follower.followees_by(DummyFollowee)).to eq(scope)
     end
   end
 end
@@ -93,4 +93,3 @@ describe DummyFollower, type: :model do
   ###
   it_behaves_like FollowSystem::Follower
 end
-

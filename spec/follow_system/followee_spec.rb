@@ -66,4 +66,3 @@ describe DummyFollowee, type: :model do
   ###
   it_behaves_like FollowSystem::Followee
 end
-
